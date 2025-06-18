@@ -1,0 +1,88 @@
+# Fichiers de données volumineux
+*.csv
+*.parquet
+*.pkl
+*.pickle
+
+# Fichiers de modèles volumineux
+*.h5
+*.hdf5
+*.model
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Fichiers de données compressés
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+*.rar
+
+# Fichiers temporaires et de cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Données sensibles
+.env.local
+.env.production
+config.ini
+secrets.json
+
+# Fichiers de sauvegarde
+*_backup.*
+*.bak
+*.backup 
